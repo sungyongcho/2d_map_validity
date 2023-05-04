@@ -46,4 +46,6 @@ int main()
 		i++;
 	}
 
+	// check_map_valid(window, window->pos_x, window->pos_y);
+
 }
