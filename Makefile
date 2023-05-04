@@ -6,7 +6,7 @@
 #    By: sucho <sucho@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/09/02 18:03:49 by sucho             #+#    #+#              #
-#    Updated: 2023/05/04 03:54:39 by sucho            ###   ########.fr        #
+#    Updated: 2023/05/04 16:19:38 by sucho            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,7 +32,9 @@ INCLIB_MMS				=	-L${MINILIBX_MMS} -lmlx -framework Cocoa -framework Metal \
 							-framework MetalKit -framework QuartzCore -L${LIBFT_PATH} -lft
 
 SRCS					=	./includes/get_next_line/get_next_line.c \
-							./srcs/main.c
+							./srcs/main.c \
+							./srcs/error_process.c \
+							./srcs/map_validity.c
 
 OBJS					=	${SRCS:.c=.o}
 
